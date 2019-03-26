@@ -1,0 +1,19 @@
+Algoritmo maximo_entre_numeros
+	contador <- 1
+	Escribir "ingrese cantidad de numeros"
+	leer cantidadNumeros;
+	escribir "ingrese primer numero";
+	leer primerNumero;
+	Repetir
+		Escribir "ingrese otro numero"
+		leer otroNumero;
+		si (primerNumero>otroNumero) Entonces
+			escribir "numero mayor es" , primerNumero;
+		FinSi
+		Si (primerNumero<otroNumero) Entonces
+			Escribir "numero mayor es", otroNumero;
+		FinSi
+	Hasta Que (contador <- contador+1);
+	
+	
+FinAlgoritmo
